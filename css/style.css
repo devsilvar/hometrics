@@ -1,0 +1,166 @@
+.box {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 81%;
+}
+
+
+.box-med {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 89%;
+}
+
+.logo{
+  margin-top: 0.7%;
+}
+.head2{
+  max-width: 1280px;
+  text-align: center;
+  margin:0 auto; 
+  font-size: 1.454em; 
+  color:black; 
+}
+.box-small{
+ margin: 0 auto;
+  max-width: 1280px;
+  width: 65%; 
+}
+.text.center{
+  text-align: center;
+}
+.move-down{
+  margin-bottom: -9%;
+}
+
+.pad10{
+  padding: 15px;
+
+}
+
+.padTB{
+  padding-top: 20px;
+  padding-bottom:20px; 
+}
+.menu-bar {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+.pads1{padding:8px 5px;}
+.padLR{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.margin-bottom{
+  margin-bottom: -10%;
+}
+
+.center-box{
+  width: 65%;
+margin: 0 auto;
+  max-width: 1280px;
+
+}
+.landpics-opac{
+  opacity: 0.85;
+   
+}
+.containers {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#grad2 {
+    height: auto;
+    background: maroon; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1a66ff,#001133); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1a66ff,#001133); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1a66ff,#001133); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1a66ff,
+
+#001133); /* Standard syntax (must be last) */
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-down {
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.details  p,.description p {
+  font-size: 1.25em;
+}
+.shift-img{
+  padding: none; 
+width: 100%;
+height: 230px;
+}
+
+#price,#location,#distance{
+  background-color: white;
+  color: black;
+  font-size: 1.2em;
+}
+.t-center{
+  text-align: center;
+}
+.section4{
+  background-color: 
+}
+
+#bb{
+  background-color: #0000ff;
+}
+.b-text{
+  color: #0000ff;
+}
+.t-small{
+  font-size: 0.88em; 
+}
+
+.t-med{
+font-size:1.22em;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: #0277bd;
+    color: white;
+  }
+ .display-container{position:relative} 
+.d-topleft{position:absolute;left:0;top:0}
+.d-topright{position:absolute;right:0;top:0}
+.d-bottomleft{position:absolute;left:0;bottom:0}
+.d-bottomright{position:absolute;right:0;bottom:0}
+.d-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.d-topmiddle{position:absolute;left:0;top:0;width:100%;text-align:center}
+.d-bottommiddle{position:absolute;left:0;bottom:0;width:100%;text-align:center}
+            
